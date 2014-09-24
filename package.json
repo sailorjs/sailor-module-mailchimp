@@ -1,17 +1,17 @@
 {
   "name": "sailor-module-mailchimp",
   "description": "Integrate with MailChimp API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
     "url": "https://github.com/Kikobeats"
   },
   "dependencies": {
-    "coffee-script": "*",
     "mailchimp": "*"
   },
   "devDependencies": {
+    "coffee-script": "*",
     "grunt": "*",
     "grunt-contrib-watch": "*",
     "load-grunt-tasks": "*",
