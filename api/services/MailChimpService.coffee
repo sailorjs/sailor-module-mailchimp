@@ -1,9 +1,11 @@
 ## -- Dependencies -------------------------------------------------------------
 
-translate       = require 'sailor-translate'
-errorify        = require 'sailor-errorify'
-MailChimp       = require 'mailchimp'
-mailchimpConfig = sails.config.mailchimp
+sailor             = require 'sailorjs'
+translate          = sailor.translate
+errorify           = sailor.errorify
+
+MailChimp          = require 'mailchimp'
+mailchimpConfig    = sails.config.mailchimp
 
 MailChimp_API      = MailChimp.MailChimpAPI
 MailChimpExportAPI = MailChimp.MailChimpExportAPI
